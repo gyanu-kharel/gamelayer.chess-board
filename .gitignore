@@ -1,0 +1,57 @@
+# General OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# Node.js (Next.js frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.turbo/
+
+# C# Web API (ASP.NET backend)
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/*.user
+backend/*.suo
+backend/appsettings*.json
+backend/*.log
+backend/Properties/launchSettings.json
+
+# Global dependencies (if any)
+**/node_modules/
+**/dist/
+**/build/
+
+# IDE Specific
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+*.pid
+
+# Coverage
+coverage/
+frontend/coverage/
+backend/coverage/
+*.coverage
+
+# Logs
+**/logs/
+*.log
+logs/
